@@ -44,7 +44,13 @@ async def mulai(
     )
 
 async def check(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    domain = update.message.text.strip()
+
+    if not context.args:
+        return await update.message.reply_text(
+            "Contoh:\n/cek domain.com"
+        )
+
+    domain = context.args[0].strip().lower()
 
     try:
         msg = await update.message.reply_text(
