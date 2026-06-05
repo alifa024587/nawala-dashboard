@@ -1,60 +1,60 @@
 {
-    "last_update": "2026-06-05 21:31:54",
-    "next_update": "2026-06-05 21:36:54",
+    "last_update": "2026-06-05 21:36:56",
+    "next_update": "2026-06-05 21:41:56",
     "domains": [
         {
             "domain": "miniyakin.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-05 21:31:50"
+            "checked_at": "2026-06-05 21:36:50"
         },
         {
             "domain": "minitotobesar.site",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-05 21:31:50"
+            "checked_at": "2026-06-05 21:36:51"
         },
         {
             "domain": "minitoto.us",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-05 21:31:51"
+            "checked_at": "2026-06-05 21:36:52"
         },
         {
             "domain": "minitotosabi.id",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-05 21:31:51"
+            "checked_at": "2026-06-05 21:36:53"
         },
         {
             "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-05 21:31:52"
+            "checked_at": "2026-06-05 21:36:53"
         },
         {
             "domain": "minimasihdisini.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-05 21:31:53"
+            "checked_at": "2026-06-05 21:36:54"
         },
         {
             "domain": "minitotopauss.firebaseapp.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-05 21:31:54"
+            "checked_at": "2026-06-05 21:36:55"
         },
         {
             "domain": "ampmini.it.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-05 21:31:54"
+            "checked_at": "2026-06-05 21:36:56"
         },
         {
             "domain": "oldhamcounty.b-cdn.net",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-05 21:31:54"
+            "checked_at": "2026-06-05 21:36:56"
         }
     ]
 }
