@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nawala Monitor Dashboard</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    padding:20px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+}
+
+.card h2{
+    font-size:28px;
+    margin-top:10px;
+}
+
+.search-box{
+    margin-bottom:20px;
+}
+
+.search-box input{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:#1e293b;
+    color:white;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    overflow:hidden;
+}
+
+thead{
+    background:#1e293b;
+}
+
+th,
+td{
+    padding:14px;
+    text-align:left;
+    border-bottom:1px solid #334155;
+}
+
+tbody tr:hover{
+    background:#1e293b;
+}
+
+.badge{
+    padding:6px 12px;
+    border-radius:999px;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.blocked{
+    background:#dc2626;
+}
+
+.safe{
+    background:#16a34a;
+}
+
+.footer{
+    margin-top:15px;
+    text-align:center;
+    color:#94a3b8;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>🚀 Nawala Monitor Dashboard</h1>
+
+<div class="cards">
+
+    <div class="card">
+        <div>Total Domain</div>
+        <h2 id="totalDomains">0</h2>
+    </div>
+
+    <div class="card">
+        <div>Total Blocked</div>
+        <h2 id="totalBlocked">0</h2>
+    </div>
+
+    <div class="card">
+        <div>Last Update</div>
+        <h3 id="lastUpdate">-</h3>
+    </div>
+
+    <div class="card">
+        <div>Next Check</div>
+        <h3 id="nextUpdate">-</h3>
+    </div>
+
+</div>
+
+<div class="search-box">
+    <input
+        type="text"
+        id="search"
+        placeholder="Cari domain..."
+    >
+</div>
+
+<table>
+
+<thead>
+<tr>
+    <th>Domain</th>
+    <th>Nawala</th>
+    <th>Network</th>
+    <th>Status</th>
+    <th>Checked At</th>
+</tr>
+</thead>
+
+<tbody id="tableBody">
+</tbody>
+
+</table>
+
+<div class="footer">
+    Auto refresh setiap 10 detik
+</div>
+
+</div>
+
+<script>
+
+let allDomains = [];
+
+async function loadData(){
+
+    try{
+
+        const response =
+            await fetch(
+                "webstatus.json?time="
+                + new Date().getTime()
+            );
+
+        const data =
+            await response.json();
+
+        allDomains =
+            data.domains || [];
+
+        document.getElementById(
+            "totalDomains"
+        ).innerText =
+            allDomains.length;
+
+        const blocked =
+            allDomains.filter(
+                d => d.nawala || d.network
+            ).length;
+
+        document.getElementById(
+            "totalBlocked"
+        ).innerText =
+            blocked;
+
+        document.getElementById(
+            "lastUpdate"
+        ).innerText =
+            data.last_update || "-";
+
+        document.getElementById(
+            "nextUpdate"
+        ).innerText =
+            data.next_update || "-";
+
+        renderTable();
+
+    }
+    catch(err){
+
+        console.error(err);
+
+    }
+
+}
+
+function renderTable(){
+
+    const keyword =
+        document
+        .getElementById("search")
+        .value
+        .toLowerCase();
+
+    const filtered =
+        allDomains.filter(
+            d =>
+            d.domain
+            .toLowerCase()
+            .includes(keyword)
+        );
+
+    let html = "";
+
+    filtered.forEach(item=>{
+
+        const blocked =
+            item.nawala ||
+            item.network;
+
+        html += `
+        <tr>
+
+            <td>${item.domain}</td>
+
+            <td>
+                ${
+                    item.nawala
+                    ? '<span class="badge blocked">BLOCKED</span>'
+                    : '<span class="badge safe">SAFE</span>'
+                }
+            </td>
+
+            <td>
+                ${
+                    item.network
+                    ? '<span class="badge blocked">BLOCKED</span>'
+                    : '<span class="badge safe">SAFE</span>'
+                }
+            </td>
+
+            <td>
+                ${
+                    blocked
+                    ? '<span class="badge blocked">BLOCKED</span>'
+                    : '<span class="badge safe">NORMAL</span>'
+                }
+            </td>
+
+            <td>${item.checked_at}</td>
+
+        </tr>
+        `;
+
+    });
+
+    document.getElementById(
+        "tableBody"
+    ).innerHTML =
+        html;
+
+}
+
+document
+.getElementById("search")
+.addEventListener(
+    "keyup",
+    renderTable
+);
+
+loadData();
+
+setInterval(
+    loadData,
+    10000
+);
+
+</script>
+
+</body>
+</html>
