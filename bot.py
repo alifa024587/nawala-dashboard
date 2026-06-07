@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta
+import subprocess
 from telegram import (
     Update,
     BotCommand
@@ -23,6 +24,31 @@ from storage import (
     load_domains,
     save_web_status
 )
+
+def auto_push_status():
+
+    try:
+
+        subprocess.run(
+            ["git", "add", "webstatus.json"],
+            check=True
+        )
+
+        subprocess.run(
+            ["git", "commit", "-m", "auto update"],
+            check=False
+        )
+
+        subprocess.run(
+            ["git", "push"],
+            check=True
+        )
+
+        print("[GIT] webstatus pushed")
+
+    except Exception as e:
+
+        print("[GIT ERROR]", e)
 
 async def mulai(
     update: Update,
@@ -386,6 +412,8 @@ async def monitor_domains(
             status_list
     })
 
+    auto_push_status()
+
     domains = load_domains()
 
     print(
@@ -566,7 +594,7 @@ def main():
 
     app.job_queue.run_repeating(
         monitor_domains,
-        interval=300,
+        interval=150,
         first=10
     )
 
