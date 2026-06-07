@@ -31,17 +31,20 @@ def auto_push_status():
 
         subprocess.run(
             ["git", "add", "webstatus.json"],
-            check=True
+            check=True,
+            timeout=30
         )
 
         subprocess.run(
             ["git", "commit", "-m", "auto update"],
-            check=False
+            check=False,
+            timeout=30
         )
 
         subprocess.run(
             ["git", "push"],
-            check=True
+            check=True,
+            timeout=60
         )
 
         print("[GIT] webstatus pushed")
@@ -312,7 +315,15 @@ async def webstatus(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 f"❌ ERROR\n\n"
             )
 
-    await update.message.reply_text(result_text)
+    from telegram.error import TimedOut
+
+    try:
+        print("WEBSTATUS LEN =", len(result_text))
+        await update.message.reply_text(result_text)
+    except TimedOut:
+        print("[ERROR] Telegram timeout")
+    except Exception as e:
+        print(f"[ERROR] {e}")
 
 async def monitor_domains(
     context: ContextTypes.DEFAULT_TYPE
@@ -537,9 +548,21 @@ async def alert_blocked(
 
 def main():
 
-    app = Application.builder() \
-        .token(BOT_TOKEN) \
+    from telegram.request import HTTPXRequest
+
+    request = HTTPXRequest(
+        connect_timeout=30,
+        read_timeout=30,
+        write_timeout=30,
+        pool_timeout=30
+    )
+
+    app = (
+        Application.builder()
+        .token(BOT_TOKEN)
+        .request(request)
         .build()
+    )
 
     app.add_handler(
         CommandHandler(
