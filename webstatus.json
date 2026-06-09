@@ -1,60 +1,60 @@
 {
-    "last_update": "2026-06-09 17:47:35",
-    "next_update": "2026-06-09 17:52:35",
+    "last_update": "2026-06-09 17:49:57",
+    "next_update": "2026-06-09 17:54:57",
     "domains": [
         {
             "domain": "miniyakin.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-09 17:47:24"
+            "checked_at": "2026-06-09 17:49:44"
         },
         {
             "domain": "minitotobesar.site",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-09 17:47:24"
+            "checked_at": "2026-06-09 17:49:46"
         },
         {
             "domain": "minitoto.us",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-09 17:47:25"
+            "checked_at": "2026-06-09 17:49:46"
         },
         {
             "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-09 17:47:26"
+            "checked_at": "2026-06-09 17:49:48"
         },
         {
             "domain": "minimasihdisini.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-09 17:47:29"
+            "checked_at": "2026-06-09 17:49:49"
         },
         {
             "domain": "minitotopauss.firebaseapp.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-09 17:47:30"
+            "checked_at": "2026-06-09 17:49:49"
         },
         {
             "domain": "ampmini.it.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-09 17:47:31"
+            "checked_at": "2026-06-09 17:49:54"
         },
         {
             "domain": "oldhamcounty.b-cdn.net",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-09 17:47:33"
+            "checked_at": "2026-06-09 17:49:55"
         },
         {
             "domain": "minibisa.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-09 17:47:35"
+            "checked_at": "2026-06-09 17:49:57"
         }
     ]
 }
