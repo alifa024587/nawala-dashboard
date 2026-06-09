@@ -1,54 +1,54 @@
 {
-    "last_update": "2026-06-09 20:34:12",
-    "next_update": "2026-06-09 20:39:12",
+    "last_update": "2026-06-09 20:36:21",
+    "next_update": "2026-06-09 20:41:21",
     "domains": [
         {
             "domain": "miniyakin.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-09 20:33:29"
+            "checked_at": "2026-06-09 20:35:59"
         },
         {
             "domain": "minitotobesar.site",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-09 20:33:31"
+            "checked_at": "2026-06-09 20:36:04"
         },
         {
             "domain": "minitoto.us",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-09 20:33:33"
+            "checked_at": "2026-06-09 20:36:06"
         },
         {
             "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-09 20:33:40"
+            "checked_at": "2026-06-09 20:36:08"
         },
         {
             "domain": "minimasihdisini.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-09 20:33:44"
+            "checked_at": "2026-06-09 20:36:10"
         },
         {
             "domain": "minitotopauss.firebaseapp.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-09 20:33:47"
+            "checked_at": "2026-06-09 20:36:11"
         },
         {
-            "domain": "ampmini.it.com",
+            "domain": "oldhamcounty.b-cdn.net",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-09 20:33:50"
+            "checked_at": "2026-06-09 20:36:19"
         },
         {
             "domain": "minibisa.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-09 20:34:12"
+            "checked_at": "2026-06-09 20:36:21"
         }
     ]
 }
