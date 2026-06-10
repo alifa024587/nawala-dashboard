@@ -220,7 +220,11 @@ async def list_domains(
     context: ContextTypes.DEFAULT_TYPE
 ):
 
+    print("COMMAND LIST MASUK")
+
     domains = load_domains()
+
+    print("DOMAINS =", domains)
 
     if not domains:
         return await update.message.reply_text(
@@ -229,9 +233,11 @@ async def list_domains(
 
     text = "📊 STATUS DOMAIN\n\n"
 
-    for i, domain in enumerate(domains, mulai=1):
+    for i, domain in enumerate(domains, start=1):
 
         try:
+
+            print("CHECKING =", domain)
 
             result = check_domain(domain)
 
@@ -262,7 +268,9 @@ async def list_domains(
                 f"{status}\n\n"
             )
 
-        except Exception:
+        except Exception as e:
+
+            print("LIST ERROR =", e)
 
             text += (
                 f"{i}. {domain}\n"
