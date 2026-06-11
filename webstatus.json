@@ -1,42 +1,60 @@
 {
-    "last_update": "2026-06-11 22:56:01",
-    "next_update": "2026-06-11 23:01:01",
+    "last_update": "2026-06-11 22:56:26",
+    "next_update": "2026-06-11 23:01:26",
     "domains": [
+        {
+            "domain": "miniyakin.com",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-11 22:56:19"
+        },
+        {
+            "domain": "minitotobesar.site",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-11 22:56:20"
+        },
+        {
+            "domain": "minipasticuan.com",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-11 22:56:21"
+        },
         {
             "domain": "minimasihdisini.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-11 22:55:50"
+            "checked_at": "2026-06-11 22:56:22"
         },
         {
             "domain": "ampmini.it.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-11 22:55:56"
+            "checked_at": "2026-06-11 22:56:23"
         },
         {
             "domain": "oldhamcounty.b-cdn.net",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-11 22:55:57"
+            "checked_at": "2026-06-11 22:56:23"
         },
         {
             "domain": "minibisa.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-11 22:55:59"
+            "checked_at": "2026-06-11 22:56:24"
         },
         {
             "domain": "minimantul.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-11 22:56:00"
+            "checked_at": "2026-06-11 22:56:25"
         },
         {
             "domain": "gandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-11 22:56:01"
+            "checked_at": "2026-06-11 22:56:26"
         }
     ]
 }
