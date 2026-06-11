@@ -1,54 +1,54 @@
 {
-    "last_update": "2026-06-11 22:01:31",
-    "next_update": "2026-06-11 22:06:31",
+    "last_update": "2026-06-11 22:04:06",
+    "next_update": "2026-06-11 22:09:06",
     "domains": [
         {
             "domain": "miniyakin.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-11 22:01:20"
+            "checked_at": "2026-06-11 22:03:52"
         },
         {
             "domain": "minitotobesar.site",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-11 22:01:20"
+            "checked_at": "2026-06-11 22:03:59"
         },
         {
             "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-11 22:01:22"
+            "checked_at": "2026-06-11 22:04:00"
         },
         {
             "domain": "minimasihdisini.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-11 22:01:23"
+            "checked_at": "2026-06-11 22:04:01"
         },
         {
             "domain": "ampmini.it.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-11 22:01:24"
+            "checked_at": "2026-06-11 22:04:03"
         },
         {
             "domain": "oldhamcounty.b-cdn.net",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-11 22:01:25"
+            "checked_at": "2026-06-11 22:04:04"
         },
         {
             "domain": "minibisa.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-11 22:01:26"
+            "checked_at": "2026-06-11 22:04:05"
         },
         {
             "domain": "minimantul.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-11 22:01:31"
+            "checked_at": "2026-06-11 22:04:06"
         }
     ]
 }
