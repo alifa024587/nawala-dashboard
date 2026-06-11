@@ -1,60 +1,54 @@
 {
-    "last_update": "2026-06-12 03:09:02",
-    "next_update": "2026-06-12 03:14:02",
+    "last_update": "2026-06-12 03:12:04",
+    "next_update": "2026-06-12 03:17:04",
     "domains": [
         {
             "domain": "miniyakin.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-12 03:08:50"
+            "checked_at": "2026-06-12 03:11:20"
         },
         {
             "domain": "minitotobesar.site",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-12 03:08:51"
+            "checked_at": "2026-06-12 03:11:21"
         },
         {
             "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-12 03:08:56"
+            "checked_at": "2026-06-12 03:11:29"
         },
         {
             "domain": "minimasihdisini.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-12 03:08:57"
+            "checked_at": "2026-06-12 03:11:30"
         },
         {
             "domain": "ampmini.it.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-12 03:08:57"
+            "checked_at": "2026-06-12 03:11:31"
         },
         {
             "domain": "oldhamcounty.b-cdn.net",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-12 03:08:58"
+            "checked_at": "2026-06-12 03:11:31"
         },
         {
             "domain": "minibisa.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-12 03:08:59"
-        },
-        {
-            "domain": "minimantul.com",
-            "nawala": false,
-            "network": false,
-            "checked_at": "2026-06-12 03:09:00"
+            "checked_at": "2026-06-12 03:11:32"
         },
         {
             "domain": "gandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-12 03:09:02"
+            "checked_at": "2026-06-12 03:12:04"
         }
     ]
 }
