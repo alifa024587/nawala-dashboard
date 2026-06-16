@@ -1,84 +1,84 @@
 {
-    "last_update": "2026-06-17 05:53:50",
-    "next_update": "2026-06-17 05:58:50",
+    "last_update": "2026-06-17 05:56:22",
+    "next_update": "2026-06-17 06:01:22",
     "domains": [
         {
             "domain": "miniyakin.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-17 05:53:41"
+            "checked_at": "2026-06-17 05:56:11"
         },
         {
             "domain": "minitotobesar.site",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-17 05:53:41"
+            "checked_at": "2026-06-17 05:56:12"
         },
         {
             "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-17 05:53:43"
+            "checked_at": "2026-06-17 05:56:14"
         },
         {
             "domain": "minimasihdisini.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-17 05:53:44"
+            "checked_at": "2026-06-17 05:56:15"
         },
         {
             "domain": "ampmini.it.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-17 05:53:44"
+            "checked_at": "2026-06-17 05:56:16"
         },
         {
             "domain": "oldhamcounty.b-cdn.net",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-17 05:53:45"
+            "checked_at": "2026-06-17 05:56:16"
         },
         {
             "domain": "minibisa.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-17 05:53:46"
+            "checked_at": "2026-06-17 05:56:17"
         },
         {
             "domain": "minimantul.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-17 05:53:47"
+            "checked_at": "2026-06-17 05:56:18"
         },
         {
             "domain": "gandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-17 05:53:48"
+            "checked_at": "2026-06-17 05:56:19"
         },
         {
             "domain": "gandacuan.id",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-17 05:53:48"
+            "checked_at": "2026-06-17 05:56:20"
         },
         {
             "domain": "gandacuan.io",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-17 05:53:49"
+            "checked_at": "2026-06-17 05:56:21"
         },
         {
             "domain": "mariminisantai.web.app/",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-17 05:53:50"
+            "checked_at": "2026-06-17 05:56:21"
         },
         {
             "domain": "gandacuan.cc",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-17 05:53:50"
+            "checked_at": "2026-06-17 05:56:22"
         }
     ]
 }
