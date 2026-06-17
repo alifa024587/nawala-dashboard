@@ -1,5 +1,30 @@
 {
-    "last_update": "2026-06-17 16:57:59",
-    "next_update": "2026-06-17 17:02:59",
-    "domains": []
+    "last_update": "2026-06-17 17:07:00",
+    "next_update": "2026-06-17 17:12:00",
+    "domains": [
+        {
+            "domain": "gandacuan.io",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-17 17:06:55"
+        },
+        {
+            "domain": "mariminisantai.web.app/",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-17 17:06:56"
+        },
+        {
+            "domain": "gandacuan.cc",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-17 17:06:57"
+        },
+        {
+            "domain": "minikenangan.com",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-17 17:07:00"
+        }
+    ]
 }
