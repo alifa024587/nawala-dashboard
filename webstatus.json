@@ -1,108 +1,114 @@
 {
-    "last_update": "2026-06-22 04:05:34",
-    "next_update": "2026-06-22 04:10:34",
+    "last_update": "2026-06-22 04:08:01",
+    "next_update": "2026-06-22 04:13:01",
     "domains": [
+        {
+            "domain": "minitotobesar.site",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-22 04:07:47"
+        },
         {
             "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-22 04:05:18"
+            "checked_at": "2026-06-22 04:07:48"
         },
         {
             "domain": "minimasihdisini.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-22 04:05:19"
+            "checked_at": "2026-06-22 04:07:49"
         },
         {
             "domain": "ampmini.it.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-22 04:05:22"
+            "checked_at": "2026-06-22 04:07:49"
         },
         {
             "domain": "oldhamcounty.b-cdn.net",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-22 04:05:22"
+            "checked_at": "2026-06-22 04:07:50"
         },
         {
             "domain": "minibisa.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-22 04:05:23"
+            "checked_at": "2026-06-22 04:07:51"
         },
         {
             "domain": "gandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-22 04:05:24"
+            "checked_at": "2026-06-22 04:07:52"
         },
         {
             "domain": "gandacuan.id",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-22 04:05:25"
+            "checked_at": "2026-06-22 04:07:53"
         },
         {
             "domain": "gandacuan.io",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-22 04:05:26"
+            "checked_at": "2026-06-22 04:07:53"
         },
         {
             "domain": "mariminisantai.web.app/",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-22 04:05:26"
+            "checked_at": "2026-06-22 04:07:54"
         },
         {
             "domain": "gandacuan.cc",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-22 04:05:27"
+            "checked_at": "2026-06-22 04:07:55"
         },
         {
             "domain": "minikenangan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-22 04:05:28"
+            "checked_at": "2026-06-22 04:07:55"
         },
         {
             "domain": "rtp.panelgandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-22 04:05:29"
+            "checked_at": "2026-06-22 04:07:56"
         },
         {
             "domain": "buktijp.panelgandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-22 04:05:30"
+            "checked_at": "2026-06-22 04:07:57"
         },
         {
             "domain": "prediksi.panelgandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-22 04:05:31"
+            "checked_at": "2026-06-22 04:07:58"
         },
         {
             "domain": "promosi.panelgandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-22 04:05:32"
+            "checked_at": "2026-06-22 04:07:59"
         },
         {
             "domain": "panduan.panelgandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-22 04:05:33"
+            "checked_at": "2026-06-22 04:08:00"
         },
         {
             "domain": "minisayang.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-22 04:05:34"
+            "checked_at": "2026-06-22 04:08:01"
         }
     ]
 }
