@@ -1,18 +1,24 @@
 {
-    "last_update": "2026-06-23 22:03:43",
-    "next_update": "2026-06-23 22:08:43",
+    "last_update": "2026-06-23 22:06:25",
+    "next_update": "2026-06-23 22:11:25",
     "domains": [
         {
-            "domain": "gandacuan.cc",
+            "domain": "minibisa.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 22:03:39"
+            "checked_at": "2026-06-23 22:06:09"
         },
         {
-            "domain": "minikenangan.com",
+            "domain": "prediksi.panelgandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 22:03:41"
+            "checked_at": "2026-06-23 22:06:20"
+        },
+        {
+            "domain": "promosi.panelgandacuan.com",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-23 22:06:22"
         }
     ]
 }
