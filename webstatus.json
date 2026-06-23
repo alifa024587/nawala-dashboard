@@ -1,18 +1,30 @@
 {
-    "last_update": "2026-06-23 21:53:42",
-    "next_update": "2026-06-23 21:58:42",
+    "last_update": "2026-06-23 21:56:16",
+    "next_update": "2026-06-23 22:01:16",
     "domains": [
         {
-            "domain": "oldhamcounty.b-cdn.net",
+            "domain": "minimasihdisini.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:53:37"
+            "checked_at": "2026-06-23 21:56:07"
+        },
+        {
+            "domain": "minibisa.com",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-23 21:56:10"
         },
         {
             "domain": "mariminisantai.web.app/",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:53:39"
+            "checked_at": "2026-06-23 21:56:12"
+        },
+        {
+            "domain": "minisayang.com",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-23 21:56:16"
         }
     ]
 }
