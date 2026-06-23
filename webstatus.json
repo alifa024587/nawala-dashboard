@@ -1,18 +1,12 @@
 {
-    "last_update": "2026-06-23 22:11:13",
-    "next_update": "2026-06-23 22:16:13",
+    "last_update": "2026-06-23 22:13:42",
+    "next_update": "2026-06-23 22:18:42",
     "domains": [
         {
-            "domain": "mariminisantai.web.app/",
+            "domain": "gandacuan.id",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 22:11:09"
-        },
-        {
-            "domain": "panduan.panelgandacuan.com",
-            "nawala": false,
-            "network": false,
-            "checked_at": "2026-06-23 22:11:12"
+            "checked_at": "2026-06-23 22:13:38"
         }
     ]
 }
