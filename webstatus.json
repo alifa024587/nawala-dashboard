@@ -1,66 +1,36 @@
 {
-    "last_update": "2026-06-23 21:43:48",
-    "next_update": "2026-06-23 21:48:48",
+    "last_update": "2026-06-23 21:46:16",
+    "next_update": "2026-06-23 21:51:16",
     "domains": [
         {
-            "domain": "minipasticuan.com",
+            "domain": "minibisa.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:43:36"
-        },
-        {
-            "domain": "ampmini.it.com",
-            "nawala": false,
-            "network": false,
-            "checked_at": "2026-06-23 21:43:37"
+            "checked_at": "2026-06-23 21:46:08"
         },
         {
             "domain": "gandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:43:39"
+            "checked_at": "2026-06-23 21:46:09"
         },
         {
             "domain": "gandacuan.id",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:43:40"
-        },
-        {
-            "domain": "mariminisantai.web.app/",
-            "nawala": false,
-            "network": false,
-            "checked_at": "2026-06-23 21:43:41"
-        },
-        {
-            "domain": "gandacuan.cc",
-            "nawala": false,
-            "network": false,
-            "checked_at": "2026-06-23 21:43:42"
+            "checked_at": "2026-06-23 21:46:10"
         },
         {
             "domain": "rtp.panelgandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:43:44"
+            "checked_at": "2026-06-23 21:46:13"
         },
         {
             "domain": "buktijp.panelgandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:43:45"
-        },
-        {
-            "domain": "panduan.panelgandacuan.com",
-            "nawala": false,
-            "network": false,
-            "checked_at": "2026-06-23 21:43:47"
-        },
-        {
-            "domain": "minisayang.com",
-            "nawala": false,
-            "network": false,
-            "checked_at": "2026-06-23 21:43:48"
+            "checked_at": "2026-06-23 21:46:14"
         }
     ]
 }
