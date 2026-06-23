@@ -1,24 +1,30 @@
 {
-    "last_update": "2026-06-23 21:58:44",
-    "next_update": "2026-06-23 22:03:44",
+    "last_update": "2026-06-23 22:01:15",
+    "next_update": "2026-06-23 22:06:15",
     "domains": [
         {
-            "domain": "minimasihdisini.com",
+            "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:58:37"
+            "checked_at": "2026-06-23 22:01:06"
         },
         {
-            "domain": "gandacuan.id",
+            "domain": "gandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:58:39"
+            "checked_at": "2026-06-23 22:01:09"
+        },
+        {
+            "domain": "minikenangan.com",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-23 22:01:11"
         },
         {
             "domain": "rtp.panelgandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:58:42"
+            "checked_at": "2026-06-23 22:01:12"
         }
     ]
 }
