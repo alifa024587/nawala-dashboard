@@ -1,108 +1,96 @@
 {
-    "last_update": "2026-06-23 19:51:31",
-    "next_update": "2026-06-23 19:56:31",
+    "last_update": "2026-06-23 19:53:56",
+    "next_update": "2026-06-23 19:58:56",
     "domains": [
-        {
-            "domain": "minitotobesar.site",
-            "nawala": false,
-            "network": false,
-            "checked_at": "2026-06-23 19:51:05"
-        },
         {
             "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 19:51:06"
+            "checked_at": "2026-06-23 19:53:36"
         },
         {
             "domain": "minimasihdisini.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 19:51:13"
+            "checked_at": "2026-06-23 19:53:37"
         },
         {
             "domain": "ampmini.it.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 19:51:14"
+            "checked_at": "2026-06-23 19:53:38"
         },
         {
             "domain": "oldhamcounty.b-cdn.net",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 19:51:14"
+            "checked_at": "2026-06-23 19:53:38"
         },
         {
             "domain": "minibisa.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 19:51:16"
+            "checked_at": "2026-06-23 19:53:39"
         },
         {
             "domain": "gandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 19:51:17"
-        },
-        {
-            "domain": "gandacuan.id",
-            "nawala": false,
-            "network": false,
-            "checked_at": "2026-06-23 19:51:17"
+            "checked_at": "2026-06-23 19:53:41"
         },
         {
             "domain": "gandacuan.io",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 19:51:18"
-        },
-        {
-            "domain": "mariminisantai.web.app/",
-            "nawala": false,
-            "network": false,
-            "checked_at": "2026-06-23 19:51:19"
+            "checked_at": "2026-06-23 19:53:42"
         },
         {
             "domain": "gandacuan.cc",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 19:51:20"
+            "checked_at": "2026-06-23 19:53:44"
+        },
+        {
+            "domain": "minikenangan.com",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-23 19:53:44"
         },
         {
             "domain": "rtp.panelgandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 19:51:21"
+            "checked_at": "2026-06-23 19:53:46"
         },
         {
             "domain": "buktijp.panelgandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 19:51:22"
+            "checked_at": "2026-06-23 19:53:47"
         },
         {
             "domain": "prediksi.panelgandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 19:51:23"
+            "checked_at": "2026-06-23 19:53:48"
         },
         {
             "domain": "promosi.panelgandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 19:51:24"
+            "checked_at": "2026-06-23 19:53:49"
         },
         {
             "domain": "panduan.panelgandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 19:51:30"
+            "checked_at": "2026-06-23 19:53:50"
         },
         {
             "domain": "minisayang.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 19:51:31"
+            "checked_at": "2026-06-23 19:53:56"
         }
     ]
 }
