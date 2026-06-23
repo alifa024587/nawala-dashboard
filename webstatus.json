@@ -1,48 +1,60 @@
 {
-    "last_update": "2026-06-23 21:31:20",
-    "next_update": "2026-06-23 21:36:20",
+    "last_update": "2026-06-23 21:33:50",
+    "next_update": "2026-06-23 21:38:50",
     "domains": [
         {
-            "domain": "minitotobesar.site",
+            "domain": "minipasticuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:31:06"
+            "checked_at": "2026-06-23 21:33:36"
         },
         {
             "domain": "ampmini.it.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:31:07"
+            "checked_at": "2026-06-23 21:33:37"
         },
         {
             "domain": "oldhamcounty.b-cdn.net",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:31:08"
+            "checked_at": "2026-06-23 21:33:38"
         },
         {
             "domain": "minibisa.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:31:09"
+            "checked_at": "2026-06-23 21:33:39"
         },
         {
             "domain": "gandacuan.io",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:31:11"
+            "checked_at": "2026-06-23 21:33:41"
         },
         {
-            "domain": "mariminisantai.web.app/",
+            "domain": "gandacuan.cc",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:31:12"
+            "checked_at": "2026-06-23 21:33:42"
         },
         {
-            "domain": "buktijp.panelgandacuan.com",
+            "domain": "minikenangan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:31:14"
+            "checked_at": "2026-06-23 21:33:43"
+        },
+        {
+            "domain": "prediksi.panelgandacuan.com",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-23 21:33:45"
+        },
+        {
+            "domain": "promosi.panelgandacuan.com",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-23 21:33:48"
         }
     ]
 }
