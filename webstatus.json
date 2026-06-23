@@ -1,24 +1,18 @@
 {
-    "last_update": "2026-06-23 22:06:25",
-    "next_update": "2026-06-23 22:11:25",
+    "last_update": "2026-06-23 22:08:43",
+    "next_update": "2026-06-23 22:13:43",
     "domains": [
         {
-            "domain": "minibisa.com",
+            "domain": "ampmini.it.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 22:06:09"
+            "checked_at": "2026-06-23 22:08:37"
         },
         {
             "domain": "prediksi.panelgandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 22:06:20"
-        },
-        {
-            "domain": "promosi.panelgandacuan.com",
-            "nawala": false,
-            "network": false,
-            "checked_at": "2026-06-23 22:06:22"
+            "checked_at": "2026-06-23 22:08:42"
         }
     ]
 }
