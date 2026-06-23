@@ -1,18 +1,66 @@
 {
-    "last_update": "2026-06-23 21:09:53",
-    "next_update": "2026-06-23 21:14:53",
+    "last_update": "2026-06-23 21:11:17",
+    "next_update": "2026-06-23 21:16:17",
     "domains": [
         {
-            "domain": "promosi.panelgandacuan.com",
+            "domain": "minitotobesar.site",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:09:49"
+            "checked_at": "2026-06-23 21:11:06"
+        },
+        {
+            "domain": "minipasticuan.com",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-23 21:11:07"
+        },
+        {
+            "domain": "ampmini.it.com",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-23 21:11:08"
+        },
+        {
+            "domain": "gandacuan.com",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-23 21:11:09"
+        },
+        {
+            "domain": "gandacuan.id",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-23 21:11:10"
+        },
+        {
+            "domain": "gandacuan.io",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-23 21:11:11"
+        },
+        {
+            "domain": "gandacuan.cc",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-23 21:11:12"
+        },
+        {
+            "domain": "minikenangan.com",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-23 21:11:14"
         },
         {
             "domain": "panduan.panelgandacuan.com",
             "nawala": false,
             "network": false,
-            "checked_at": "2026-06-23 21:09:53"
+            "checked_at": "2026-06-23 21:11:16"
+        },
+        {
+            "domain": "minisayang.com",
+            "nawala": false,
+            "network": false,
+            "checked_at": "2026-06-23 21:11:17"
         }
     ]
 }
